@@ -5,6 +5,7 @@ export default defineConfig({
   title: "DocLibrary",
   description: "文档集合",
   srcDir: './packages',
+  outDir: 'docs',
   themeConfig: {
     search: {
       provider: 'local'
