@@ -41,4 +41,4 @@ jobs:
       with:
         ACCESS_TOKEN: ${{ secrets.QSYJ_BUIL_UPLOAD }}
         BRANCH: docs-web
-        path: docs
+        FOLDER: docs
