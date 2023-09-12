@@ -35,8 +35,10 @@ jobs:
 
     - name: Build
       run: pnpm run docs:build
+
     - name: Upload Docs
-      uses: actions/upload-artifact@v2
+      uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        name: docs-artifact
-        path: ./docs
+        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        BRANCH: web
+        path: docs
