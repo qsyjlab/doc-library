@@ -39,6 +39,6 @@ jobs:
     - name: Upload Docs
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
-        ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        ACCESS_TOKEN: ${{ secrets.QSYJ_BUIL_UPLOAD }}
         BRANCH: web
         path: docs
