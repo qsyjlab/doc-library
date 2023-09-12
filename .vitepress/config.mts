@@ -6,6 +6,7 @@ export default defineConfig({
   description: "文档集合",
   srcDir: './packages',
   outDir: 'docs',
+  base: '/doc-library/',
   themeConfig: {
     search: {
       provider: 'local'
