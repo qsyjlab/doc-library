@@ -40,5 +40,5 @@ jobs:
       uses: JamesIves/github-pages-deploy-action@releases/v3
       with:
         ACCESS_TOKEN: ${{ secrets.QSYJ_BUIL_UPLOAD }}
-        BRANCH: web
+        BRANCH: docs-web
         path: docs
